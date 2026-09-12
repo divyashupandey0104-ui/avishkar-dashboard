@@ -272,13 +272,16 @@ elif nav_option == "4. Corporate ESG Ledger Audit":
 # Footer
 st.markdown("---")
 st.markdown("<div style='text-align: center; color: #6B7280;'>Avishkar Research Convention Monograph Prototype | Banking, Accounting & Finance (BAF) Track</div>", unsafe_allow_html=True)
-    
 
-       
+
+ 
+      
+  
+      
+
+   
 
     
-        
-        
 
 
 
