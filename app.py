@@ -103,7 +103,7 @@ if nav_option == "1. Live Scrap Deposit Simulator":
     st.subheader("Tier A & C: IoT Edge Ingestion & Micro-Escrow Execution")
     st.write("Simulate an automated deposit at a Tier-1 micro-dealer (*kabadiwala*) center equipped with IoT scales and optical sensors.")
 
-    col1, col2 = st.columns([1])
+    col1, col2 = st.columns(2)
 
     with col1:
         st.markdown("### 📥 1. Worker & Scrap Deposit Inputs")
@@ -193,7 +193,7 @@ elif nav_option == "2. 30-Day Income Simulation":
         "World Bank Urban Poverty Line Benchmark": poverty_cum
     })
 
-    col1, col2 = st.columns([1, 2])
+    col1, col2 = st.columns(2)
 
     with col1:
         st.line_chart(df_sim.set_index("Working Day"), height=400)
@@ -272,4 +272,15 @@ elif nav_option == "4. Corporate ESG Ledger Audit":
 # Footer
 st.markdown("---")
 st.markdown("<div style='text-align: center; color: #6B7280;'>Avishkar Research Convention Monograph Prototype | Banking, Accounting & Finance (BAF) Track</div>", unsafe_allow_html=True)
-Option 2: If you clicked the pencil icon on requirements.txt
+    
+
+       
+
+    
+        
+        
+
+
+
+
+    
