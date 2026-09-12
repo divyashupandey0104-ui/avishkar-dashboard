@@ -217,9 +217,10 @@ elif nav_option == "3. Supply Chain Costing (ABC Model)":
     abc_data = pd.DataFrame({
         "Supply Chain Node": ["Tier 0: Segregation", "Tier 1: Collection", "Tier 2: Aggregation", "Tier 3: Baling/Traders", "Tier 4: Recycling"],
         "Actor Entity": ["Informal Waste Picker", "Micro-Dealer (Chota Kabadiwala)", "Sub-Wholesaler (Bada Kabadiwala)", "Bulk Aggregator / Broker", "Registered PWP & PIBO"],
-        "Scrap Price Paid (INR/kg)": [12.00, 18.00, 26.00, 36.00, 48.00],
+        ""Scrap Price Paid (INR/kg)": [12.00, 18.00, 26.00, 36.00, 48.00],
         "Gross Scrap Value / MT": ,
         "EPR Credit Captured / MT": ,
+
         "Net Value Capture Share (%)": [7.74, 11.61, 17.03, 23.94, 39.68]
     })
 
